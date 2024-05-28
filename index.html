@@ -1007,21 +1007,38 @@ function loadQuestion() {
         answerButton.onclick = () => selectAnswer(index);
         answersDiv.appendChild(answerButton);
     });
+
+    document.querySelector('#quiz button[onclick="submitAnswer()"]').style.display = 'block';
+    document.querySelector('#quiz button[onclick="nextQuestion()"]').style.display = 'none';
 }
 
-function selectAnswer(selectedIndex) {
+let selectedAnswerIndex = null;
+
+function selectAnswer(index) {
+    selectedAnswerIndex = index;
+    document.getElementById('answers').querySelectorAll('button').forEach(button => {
+        button.disabled = false;
+        button.style.backgroundColor = '';
+    });
+    document.getElementById('answers').querySelectorAll('button')[index].style.backgroundColor = 'lightblue';
+}
+
+function submitAnswer() {
+    if (selectedAnswerIndex === null) return;
+
     const questionData = currentQuiz[currentQuestionIndex];
-    if (selectedIndex === questionData.correct) {
+    if (selectedAnswerIndex === questionData.correct) {
         score++;
     }
     document.getElementById('answers').querySelectorAll('button').forEach((button, index) => {
         button.disabled = true;
         if (index === questionData.correct) {
             button.style.backgroundColor = 'green';
-        } else if (index === selectedIndex) {
+        } else if (index === selectedAnswerIndex) {
             button.style.backgroundColor = 'red';
         }
     });
+
     document.querySelector('#quiz button[onclick="submitAnswer()"]').style.display = 'none';
     document.querySelector('#quiz button[onclick="nextQuestion()"]').style.display = 'block';
 }
@@ -1030,8 +1047,7 @@ function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex < currentQuiz.length) {
         loadQuestion();
-        document.querySelector('#quiz button[onclick="submitAnswer()"]').style.display = 'block';
-        document.querySelector('#quiz button[onclick="nextQuestion()"]').style.display = 'none';
+        selectedAnswerIndex = null;
     } else {
         document.getElementById('quiz').style.display = 'none';
         document.getElementById('result').style.display = 'block';
@@ -1042,6 +1058,7 @@ function nextQuestion() {
 document.getElementById('reloadButton').addEventListener('click', () => {
     location.reload();
 });
+
 
 
     </script>

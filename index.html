@@ -101,6 +101,8 @@ button:hover {
             <select id="subject">
                 <option value="math">Math</option>
                 <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
                 <!-- Add more subjects as needed -->
             </select>
             <button onclick="loadQuiz()" id="Button">Start Quiz</button>
@@ -163,7 +165,52 @@ button:hover {
             { question: "Which season comes after summer?", answers: ["Winter", "Spring", "Autumn", "Rainy"], correct: 2 },
             { question: "How many legs does a spider have?", answers: ["6", "8", "10", "12"], correct: 1 },
             { question: "What do plants need to grow?", answers: ["Water", "Sand", "Oil", "Rocks"], correct: 0 }
-                ]
+                ],
+                english: [
+                { question: "What is the first letter of the alphabet?", answers: ["A", "B", "C", "D"], correct: 0 },
+            { question: "What is the opposite of 'hot'?", answers: ["Cold", "Warm", "Cool", "Heat"], correct: 0 },
+            { question: "Which of these is a vowel?", answers: ["A", "B", "C", "D"], correct: 0 },
+            { question: "What is the color of the sky?", answers: ["Blue", "Red", "Green", "Yellow"], correct: 0 },
+            { question: "Which of these is a fruit?", answers: ["Apple", "Carrot", "Potato", "Onion"], correct: 0 },
+            { question: "What sound does a cow make?", answers: ["Moo", "Meow", "Woof", "Quack"], correct: 0 },
+            { question: "Which of these words is a noun?", answers: ["Cat", "Run", "Beautiful", "Quickly"], correct: 0 },
+            { question: "What is the opposite of 'happy'?", answers: ["Sad", "Joyful", "Glad", "Excited"], correct: 0 },
+            { question: "What is the plural of 'cat'?", answers: ["Cats", "Cat's", "Cat", "Cattes"], correct: 0 },
+            { question: "Which of these is a place?", answers: ["Park", "Run", "Sad", "Quickly"], correct: 0 },
+            { question: "What color are bananas?", answers: ["Yellow", "Blue", "Red", "Green"], correct: 0 },
+            { question: "What is the opposite of 'big'?", answers: ["Small", "Huge", "Large", "Gigantic"], correct: 0 },
+            { question: "Which of these is a vegetable?", answers: ["Carrot", "Apple", "Banana", "Orange"], correct: 0 },
+            { question: "What sound does a dog make?", answers: ["Woof", "Meow", "Quack", "Moo"], correct: 0 },
+            { question: "Which of these words is a verb?", answers: ["Run", "Cat", "Happy", "Quickly"], correct: 0 },
+            { question: "What is the opposite of 'up'?", answers: ["Down", "Over", "Under", "Above"], correct: 0 },
+            { question: "What is the plural of 'dog'?", answers: ["Dogs", "Dog's", "Dog", "Doges"], correct: 0 },
+            { question: "Which of these is a color?", answers: ["Red", "Fast", "Cat", "Apple"], correct: 0 },
+            { question: "What color is grass?", answers: ["Green", "Blue", "Red", "Yellow"], correct: 0 },
+            { question: "What is the opposite of 'day'?", answers: ["Night", "Morning", "Evening", "Noon"], correct: 0 }
+                ],
+                hindi: [
+            { question: "नदी का पर्यायवाची शब्द क्या है?", answers: ["सरिता", "गगन", "धरती", "वायु"], correct: 0 },
+            { question: "इनमें से कौन सा वर्ण स्वर है?", answers: ["क", "ख", "आ", "ग"], correct: 2 },
+            { question: "हिंदी वर्णमाला में कुल कितने स्वर होते हैं?", answers: ["10", "11", "12", "13"], correct: 1 },
+            { question: "इनमें से कौन सा शब्द सही है?", answers: ["पढ़", "पढ़ा", "पढ़े", "पढ़ना"], correct: 3 },
+            { question: "गाय का बच्चा क्या कहलाता है?", answers: ["बछड़ा", "बिल्ली", "बंदर", "बत्तख"], correct: 0 },
+            { question: "पक्षी कहाँ रहते हैं?", answers: ["घोंसला", "गुफा", "मकान", "पेड़"], correct: 0 },
+            { question: "पानी का रंग कैसा होता है?", answers: ["लाल", "नीला", "पानी का रंग नहीं होता", "हरा"], correct: 2 },
+            { question: "आम का रंग क्या होता है?", answers: ["नीला", "पीला", "लाल", "हरा"], correct: 1 },
+            { question: "इनमें से कौन सा फल है?", answers: ["किताब", "कलम", "संतरा", "कपड़ा"], correct: 2 },
+            { question: "चिड़िया कहाँ रहती है?", answers: ["घोंसला", "घर", "मकान", "झोपड़ी"], correct: 0 },
+            { question: "कौन सा शब्द सही है?", answers: ["अचानक", "अचाकन", "अचिनक", "अचनक"], correct: 0 },
+            { question: "इनमें से कौन सा शब्द क्रिया है?", answers: ["पढ़ना", "किताब", "घर", "बच्चा"], correct: 0 },
+            { question: "हिंदी में कुल कितने व्यंजन होते हैं?", answers: ["33", "34", "35", "36"], correct: 1 },
+            { question: "इनमें से कौन सा शब्द संज्ञा है?", answers: ["खाना", "पढ़ना", "लिखना", "पुस्तक"], correct: 3 },
+            { question: "इनमें से कौन सा शब्द विशेषण है?", answers: ["लाल", "पढ़ना", "खाना", "लिखना"], correct: 0 },
+            { question: "इनमें से कौन सा शब्द सही वर्तनी वाला है?", answers: ["गजल", "गज़ल", "गजल", "ग़जल"], correct: 1 },
+            { question: "कौन सा शब्द सहीं है?", answers: ["कलम", "क़लम", "कलम", "क़लम"], correct: 0 },
+            { question: "इनमें से कौन सा शब्द भाववाचक संज्ञा है?", answers: ["गुस्सा", "पढ़ना", "लिखना", "खाना"], correct: 0 },
+            { question: "कौन सा शब्द स्त्रीलिंग है?", answers: ["गाय", "बैल", "पुरुष", "किताब"], correct: 0 },
+            { question: "नदी का विलोम शब्द क्या है?", answers: ["सागर", "तालाब", "पर्वत", "झील"], correct: 2 }
+        ]
+
     },
     2: {
         math: [
@@ -209,6 +256,50 @@ button:hover {
             { question: "What do humans need to breathe?", answers: ["Water", "Oxygen", "Carbon dioxide", "Nitrogen"], correct: 1 },
             { question: "Which sense do we use to taste food?", answers: ["Sight", "Hearing", "Taste", "Touch"], correct: 2 },
             { question: "What is the outer covering of a tree called?", answers: ["Bark", "Skin", "Shell", "Wool"], correct: 0 }
+        ],
+        english: [
+            { question: "What is the opposite of 'hot'?", answers: ["Cold", "Warm", "Sunny", "Hot"], correct: 0 },
+            { question: "Which of these is a fruit?", answers: ["Carrot", "Apple", "Potato", "Broccoli"], correct: 1 },
+            { question: "What is the plural of 'cat'?", answers: ["Cats", "Cat", "Cates", "Catt"], correct: 0 },
+            { question: "What sound does a cow make?", answers: ["Moo", "Meow", "Bark", "Chirp"], correct: 0 },
+            { question: "Which word is a noun?", answers: ["Run", "Happy", "Book", "Quickly"], correct: 2 },
+            { question: "Choose the correct word: 'She is ____ than him.'", answers: ["Tall", "Taller", "Tallest", "Talling"], correct: 1 },
+            { question: "Which is a question word?", answers: ["Where", "Red", "Happy", "Fast"], correct: 0 },
+            { question: "What is the past tense of 'jump'?", answers: ["Jump", "Jumped", "Jumping", "Jumps"], correct: 1 },
+            { question: "Choose the correct word: 'He ____ a book.'", answers: ["Read", "Reads", "Reading", "Readed"], correct: 1 },
+            { question: "What is the opposite of 'big'?", answers: ["Small", "Tall", "Large", "Fat"], correct: 0 },
+            { question: "What is the correct spelling?", answers: ["Skool", "School", "Schole", "Sckool"], correct: 1 },
+            { question: "What is the capital letter for 'a'?", answers: ["A", "a", "B", "b"], correct: 0 },
+            { question: "Choose the correct word: 'They ____ playing.'", answers: ["Is", "Are", "Am", "Be"], correct: 1 },
+            { question: "Which one is a color?", answers: ["Tree", "Blue", "Cat", "Ball"], correct: 1 },
+            { question: "Choose the correct word: 'I have ____ apple.'", answers: ["A", "An", "The", "None"], correct: 1 },
+            { question: "What is the opposite of 'day'?", answers: ["Night", "Bright", "Light", "Dark"], correct: 0 },
+            { question: "What is the plural of 'dog'?", answers: ["Dog", "Dogs", "Doges", "Dogg"], correct: 1 },
+            { question: "What sound does a cat make?", answers: ["Meow", "Moo", "Bark", "Chirp"], correct: 0 },
+            { question: "Which is a verb?", answers: ["Jump", "Fast", "Red", "Happy"], correct: 0 },
+            { question: "Choose the correct word: 'She ____ to school.'", answers: ["Goes", "Go", "Going", "Goed"], correct: 0 }
+        ],
+        hindi: [
+            { question: "नीचे दिए गए शब्दों में से सही वर्तनी वाला शब्द चुनें:", answers: ["समुद्र", "सुमुद्र", "समूद्र", "सामुद्र"], correct: 0 },
+            { question: "‘पानी’ का पर्यायवाची शब्द क्या है?", answers: ["जल", "आग", "हवा", "धरती"], correct: 0 },
+            { question: "‘बगीचा’ का विलोम शब्द क्या है?", answers: ["घर", "जंगल", "मकान", "दुकान"], correct: 1 },
+            { question: "‘पंखा’ शब्द का बहुवचन रूप क्या होगा?", answers: ["पंखे", "पंखी", "पंख", "पंखियों"], correct: 0 },
+            { question: "‘अच्छा’ शब्द का स्त्रीलिंग रूप क्या है?", answers: ["अच्छी", "अच्छे", "अच्छा", "अच्छाई"], correct: 0 },
+            { question: "नीचे दिए गए वाक्य में त्रुटि ढूंढें: 'राम स्कूल जाता है।'", answers: ["त्रुटि नहीं है", "राम स्कूल जाती है", "राम स्कूल जता है", "राम स्कुल जाता है"], correct: 0 },
+            { question: "‘घर’ शब्द का समानार्थी शब्द क्या है?", answers: ["मकान", "दुकान", "कार", "सड़क"], correct: 0 },
+            { question: "‘खिड़की’ का विलोम शब्द क्या है?", answers: ["दरवाजा", "दीवार", "छत", "फर्श"], correct: 0 },
+            { question: "‘पुस्तक’ का बहुवचन रूप क्या है?", answers: ["पुस्तकों", "पुस्तकें", "पुस्तका", "पुस्तकों"], correct: 1 },
+            { question: "‘रात’ शब्द का विलोम शब्द क्या है?", answers: ["दिन", "सुबह", "शाम", "दोपहर"], correct: 0 },
+            { question: "नीचे दिए गए विकल्पों में से सही शब्द चुनें: 'सूरज ___ निकलता है।'", answers: ["से", "पर", "के", "में"], correct: 2 },
+            { question: "‘खेलना’ शब्द का सही रूप चुनें:", answers: ["खेलता", "खेलती", "खेलने", "खेल"], correct: 3 },
+            { question: "‘खुश’ का पर्यायवाची शब्द क्या है?", answers: ["मुस्कान", "हर्षित", "रोना", "दुखी"], correct: 1 },
+            { question: "‘गाय’ का बहुवचन रूप क्या है?", answers: ["गायें", "गायों", "गायन", "गाया"], correct: 0 },
+            { question: "‘सुंदर’ शब्द का विलोम शब्द क्या है?", answers: ["असुंदर", "काला", "बुरा", "भद्दा"], correct: 0 },
+            { question: "‘पढ़ना’ शब्द का सही रूप चुनें:", answers: ["पढ़", "पढ़ाई", "पढ़ने", "पढ़ाई"], correct: 0 },
+            { question: "‘आसमान’ का पर्यायवाची शब्द क्या है?", answers: ["गगन", "धरती", "सूरज", "चाँद"], correct: 0 },
+            { question: "‘बच्चा’ का बहुवचन रूप क्या है?", answers: ["बच्चे", "बच्ची", "बच्चियों", "बच्चों"], correct: 0 },
+            { question: "‘मिठाई’ का विलोम शब्द क्या है?", answers: ["कड़वा", "नमकीन", "खट्टा", "सादा"], correct: 1 },
+            { question: "‘पानी’ का सही रूप चुनें:", answers: ["पानी", "पाने", "पन", "पनाई"], correct: 0 }
         ]
     },
     3: {
@@ -256,6 +347,50 @@ button:hover {
             { question: "What planet is known as the Red Planet?", answers: ["Earth", "Mars", "Jupiter", "Saturn"], correct: 1 },
             { question: "What do we call the change from a caterpillar to a butterfly?", answers: ["Evolution", "Metamorphosis", "Transformation", "Adaptation"], correct: 1 }
 
+        ],
+        english: [
+            { question: "What is the plural of 'child'?", answers: ["Childs", "Children", "Childes", "Childrens"], correct: 1 },
+            { question: "Which word is a noun?", answers: ["Run", "Beautiful", "Apple", "Quickly"], correct: 2 },
+            { question: "What is the opposite of 'happy'?", answers: ["Sad", "Angry", "Excited", "Bored"], correct: 0 },
+            { question: "Which is a correct sentence?", answers: ["She are playing.", "She is playing.", "She am playing.", "She be playing."], correct: 1 },
+            { question: "What is the past tense of 'go'?", answers: ["Goes", "Went", "Go", "Gone"], correct: 1 },
+            { question: "Which is a vowel?", answers: ["B", "C", "A", "D"], correct: 2 },
+            { question: "What is the first letter of the English alphabet?", answers: ["A", "B", "C", "D"], correct: 0 },
+            { question: "What is the opposite of 'big'?", answers: ["Small", "Large", "Tall", "Huge"], correct: 0 },
+            { question: "Which is a pronoun?", answers: ["Dog", "He", "Run", "Green"], correct: 1 },
+            { question: "Which is an adjective?", answers: ["Quickly", "Cat", "Beautiful", "Sing"], correct: 2 },
+            { question: "What is the plural of 'mouse'?", answers: ["Mouses", "Mice", "Mousees", "Mousies"], correct: 1 },
+            { question: "What do you call a baby dog?", answers: ["Kitten", "Puppy", "Cub", "Chick"], correct: 1 },
+            { question: "What is the opposite of 'hot'?", answers: ["Warm", "Cold", "Cool", "Heat"], correct: 1 },
+            { question: "Which word is a verb?", answers: ["Jump", "Happy", "Tree", "Red"], correct: 0 },
+            { question: "What is the synonym of 'fast'?", answers: ["Slow", "Quick", "Lazy", "Heavy"], correct: 1 },
+            { question: "What is the past tense of 'eat'?", answers: ["Eats", "Ate", "Eaten", "Eating"], correct: 1 },
+            { question: "Which is a correct sentence?", answers: ["She goed to school.", "She going to school.", "She go to school.", "She goes to school."], correct: 3 },
+            { question: "Which is a correct sentence?", answers: ["They is playing.", "They are playing.", "They am playing.", "They be playing."], correct: 1 },
+            { question: "What is the synonym of 'big'?", answers: ["Small", "Huge", "Tiny", "Little"], correct: 1 },
+            { question: "What is the plural of 'tooth'?", answers: ["Tooths", "Teeth", "Toothes", "Toothies"], correct: 1 }
+        ],
+        hindi: [
+            { question: "सूरज किस दिशा में उगता है?", answers: ["पूर्व", "पश्चिम", "उत्तर", "दक्षिण"], correct: 0 },
+            { question: "नील नदी कहाँ बहती है?", answers: ["अफ्रीका", "एशिया", "यूरोप", "अमेरिका"], correct: 0 },
+            { question: "भारत का राष्ट्रगान किसने लिखा?", answers: ["रवींद्रनाथ टैगोर", "महात्मा गांधी", "सरोजिनी नायडू", "सुभाष चंद्र बोस"], correct: 0 },
+            { question: "गाय का बच्चा क्या कहलाता है?", answers: ["बछड़ा", "पिल्ला", "बिल्ली", "छोटा"], correct: 0 },
+            { question: "भारत का राष्ट्रीय पशु कौन सा है?", answers: ["शेर", "हाथी", "बाघ", "गाय"], correct: 2 },
+            { question: "दिल्ली भारत की कौन सी राजधानी है?", answers: ["प्राचीन", "नई", "पुरानी", "देश"], correct: 1 },
+            { question: "संज्ञा का उदाहरण कौन सा है?", answers: ["लड़का", "सुंदर", "तेजी", "धीरे"], correct: 0 },
+            { question: "वचन किसे कहते हैं?", answers: ["एकवचन और बहुवचन", "लिंग", "संज्ञा", "क्रिया"], correct: 0 },
+            { question: "सर्वनाम का उदाहरण कौन सा है?", answers: ["वह", "लड़का", "सुंदर", "जल्दी"], correct: 0 },
+            { question: "क्रिया का उदाहरण कौन सा है?", answers: ["खाना", "लाल", "सुंदर", "पुस्तक"], correct: 0 },
+            { question: "विलोम शब्द का उदाहरण कौन सा है?", answers: ["अच्छा - बुरा", "लड़का - लड़की", "खाना - पीना", "सुंदर - काला"], correct: 0 },
+            { question: "समानार्थक शब्द का उदाहरण कौन सा है?", answers: ["प्रकाश - रोशनी", "लड़का - लड़की", "खाना - पीना", "सुंदर - काला"], correct: 0 },
+            { question: "समास का अर्थ क्या है?", answers: ["दो शब्दों का मेल", "एक शब्द", "कई शब्द", "कोई नहीं"], correct: 0 },
+            { question: "पर्यायवाची शब्द का उदाहरण कौन सा है?", answers: ["जल - पानी", "अच्छा - बुरा", "लड़का - लड़की", "सुंदर - काला"], correct: 0 },
+            { question: "वचन कितने प्रकार के होते हैं?", answers: ["दो", "तीन", "चार", "एक"], correct: 0 },
+            { question: "लिंग कितने प्रकार के होते हैं?", answers: ["दो", "तीन", "चार", "एक"], correct: 0 },
+            { question: "शब्द किसे कहते हैं?", answers: ["अर्थपूर्ण ध्वनि", "अर्थहीन ध्वनि", "संवाद", "कोई नहीं"], correct: 0 },
+            { question: "क्रिया किसे कहते हैं?", answers: ["काम करने को", "विशेषण", "संज्ञा", "सर्वनाम"], correct: 0 },
+            { question: "मुहावरे का अर्थ क्या होता है?", answers: ["विशेष अर्थ वाले वाक्यांश", "शब्द", "क्रिया", "संज्ञा"], correct: 0 },
+            { question: "संस्कृत का क्या महत्त्व है?", answers: ["प्राचीन भाषा", "नया शब्द", "अर्थहीन ध्वनि", "संवाद"], correct: 0 }
         ]
     },
     4: {
@@ -303,7 +438,47 @@ button:hover {
             { question: "What force pulls objects toward the center of the Earth?", answers: ["Magnetism", "Gravity", "Friction", "Buoyancy"], correct: 1 },
             { question: "What is the process of water changing from liquid to gas called?", answers: ["Freezing", "Condensation", "Evaporation", "Precipitation"], correct: 2 },
             { question: "What do you call an animal that eats only plants?", answers: ["Carnivore", "Omnivore", "Herbivore", "Insectivore"], correct: 2 }
-        ]
+        ],
+        english: [
+            { question: "What is the plural form of 'child'?", answers: ["children", "childs", "childes", "childer"], correct: 0 },
+            { question: "Which word is a synonym for 'happy'?", answers: ["sad", "joyful", "angry", "scared"], correct: 1 },
+            { question: "What is the opposite of 'dark'?", answers: ["light", "heavy", "bright", "white"], correct: 0 },
+            { question: "Which word is an adjective?", answers: ["run", "quickly", "happy", "singer"], correct: 2 },
+            { question: "What is the past tense of 'go'?", answers: ["gone", "going", "went", "goes"], correct: 2 },
+            { question: "Which sentence is punctuated correctly?", answers: ["What a beautiful day!", "What a beautiful day.", "What a beautiful day?", "What a beautiful day"], correct: 0 },
+            { question: "What is the subject of the sentence 'The cat chased the mouse'?", answers: ["cat", "mouse", "chased", "the"], correct: 0 },
+            { question: "Which word is a noun?", answers: ["happy", "run", "apple", "quickly"], correct: 2 },
+            { question: "What is the comparative form of 'big'?", answers: ["biggest", "bigger", "more big", "most big"], correct: 1 },
+            { question: "Which sentence is a question?", answers: ["She is my friend.", "What is your name?", "The sun is bright.", "He can jump."], correct: 1 },
+            { question: "Which word completes the sentence: 'She ___ to school every day.'?", answers: ["go", "went", "going", "goes"], correct: 3 },
+            { question: "What is the past tense of 'write'?", answers: ["writed", "writes", "wrote", "written"], correct: 2 },
+            { question: "What is the plural form of 'tooth'?", answers: ["teeth", "tooths", "toothes", "tooth"], correct: 0 },
+            { question: "Which word is an antonym for 'cold'?", answers: ["freezing", "hot", "cool", "chilly"], correct: 1 },
+            { question: "Which word is a verb?", answers: ["dance", "dancer", "dancing", "danced"], correct: 0 },
+            { question: "What is the superlative form of 'fast'?", answers: ["fastest", "faster", "most fast", "more fast"], correct: 0 },
+            { question: "Which sentence uses an exclamation mark correctly?", answers: ["I can't believe it!", "How are you!", "This is fun?", "Do you like apples."], correct: 0 },
+            { question: "Which word is an adjective?", answers: ["quickly", "run", "beautiful", "sang"], correct: 2 },
+            { question: "What is the correct contraction for 'do not'?", answers: ["don", "d'nt", "don't", "do'nt"], correct: 2 },
+            { question: "Which sentence is written correctly?", answers: ["He are my friend.", "She is my friend.", "They am my friend.", "We is friends."], correct: 1 }
+        ],
+        hindi: [
+            { question: "किस शब्द का अर्थ 'पानी' होता है?", answers: ["मिठाई", "फल", "खाना", "पेय"], correct: 3 },
+            { question: "किस शब्द का विलोम 'छोटा' है?", answers: ["बड़ा", "लम्बा", "पतला", "मोटा"], correct: 0 },
+            { question: "किस शब्द का पर्यायवाची 'सफेद' है?", answers: ["स्वादिष्ट", "सड़क", "गोली", "चाँदी"], correct: 3 },
+            { question: "किस शब्द का अर्थ 'गाय' होता है?", answers: ["घोड़ा", "बिल्ली", "भालू", "बकरी"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'चाँद' होता है?", answers: ["तारा", "सूरज", "मानव", "पेड़"], correct: 0 },
+            { question: "किस शब्द का विलोम 'खुश' है?", answers: ["दुःख", "आशा", "संतोष", "सफल"], correct: 0 },
+            { question: "किस शब्द का पर्यायवाची 'उच्च' है?", answers: ["नीचे", "मध्यम", "संयम", "ऊर्जा"], correct: 3 },
+            { question: "किस शब्द का विलोम 'कठिन' है?", answers: ["सरल", "मुख्य", "साफ", "आसान"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'मित्र' होता है?", answers: ["शत्रु", "दुश्मन", "साथी", "गुरु"], correct: 2 },
+            { question: "किस शब्द का पर्यायवाची 'रात' है?", answers: ["दिन", "सुबह", "संध्या", "अंधकार"], correct: 0 },
+            { question: "किस शब्द का विलोम 'सच्चाई' है?", answers: ["झूठ", "सपना", "स्वप्न", "सत्य"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'चिड़िया' होता है?", answers: ["बिल्ली", "भालू", "उल्लू", "पक्षी"], correct: 3 },
+            { question: "किस शब्द का विलोम 'गरम' है?", answers: ["सर्द", "ठंड", "बर्फ", "आधुनिक"], correct: 0 },
+            { question: "किस शब्द का पर्यायवाची 'पति' है?", answers: ["स्त्री", "पुत्र", "बेटा", "पत्नी"], correct: 3 },
+            { question: "किस शब्द का अर्थ 'सूरज' होता है?", answers: ["महिला", "चाँद", "पानी", "स्वयं"], correct: 3 },
+            { question: "किस शब्द का अर्थ 'किताब' होता है?", answers: ["अक्षर", "कविता", "गीत", "ग्रंथ"], correct: 3 }
+    ]
     },
     5: {
         math: [
@@ -349,7 +524,51 @@ button:hover {
             { question: "What happens when you bring two north poles of magnets together?", answers: ["Repel", "Attract", "Neutralize", "Merge"], correct: 0 },
             { question: "What is gravity?", answers: ["Force that pulls objects toward Earth", "Force that pushes objects away from Earth", "Force that keeps objects stationary", "Force that attracts light"], correct: 0 },
             { question: "Which of the following is a source of light?", answers: ["Sun", "Moon", "Tree", "Rock"], correct: 0 }
-        ]
+        ],
+        english: [
+            { question: "What is the past tense of 'go'?", answers: ["goed", "goes", "went", "gone"], correct: 2 },
+            { question: "Which word is a noun?", answers: ["Run", "Jump", "Apple", "Quickly"], correct: 2 },
+            { question: "What is the plural of 'child'?", answers: ["Childs", "Children", "Childes", "Childrens"], correct: 1 },
+            { question: "Which sentence is correctly punctuated?", answers: ["Can you come here.", "Can you come here?", "Can you come, here?", "Can you, come here."], correct: 1 },
+            { question: "What is the synonym of 'happy'?", answers: ["Sad", "Joyful", "Angry", "Bored"], correct: 1 },
+            { question: "Which word is an adjective?", answers: ["Happily", "Quick", "Run", "Loudly"], correct: 1 },
+            { question: "What is the antonym of 'big'?", answers: ["Huge", "Large", "Small", "Giant"], correct: 2 },
+            { question: "What is the correct spelling?", answers: ["Buutiful", "Beautifull", "Beautiful", "Bautiful"], correct: 2 },
+            { question: "Which word is a verb?", answers: ["Table", "Soft", "Eat", "Red"], correct: 2 },
+            { question: "Which sentence is a question?", answers: ["He is coming.", "Where are you going?", "She was here.", "They are running."], correct: 1 },
+            { question: "What is the opposite of 'hot'?", answers: ["Warm", "Cool", "Cold", "Freezing"], correct: 2 },
+            { question: "Which word is a pronoun?", answers: ["She", "Run", "Happy", "Tree"], correct: 0 },
+            { question: "What is the synonym of 'fast'?", answers: ["Slow", "Quick", "Tall", "Bright"], correct: 1 },
+            { question: "Which word is an adverb?", answers: ["Quickly", "Slow", "House", "Blue"], correct: 0 },
+            { question: "What is the plural of 'mouse'?", answers: ["Mouses", "Mouse", "Mices", "Mice"], correct: 3 },
+            { question: "Which sentence is an exclamation?", answers: ["Wow, that is amazing!", "He is here.", "Are you coming?", "They were late."], correct: 0 },
+            { question: "What is the antonym of 'young'?", answers: ["New", "Old", "Fresh", "Ancient"], correct: 1 },
+            { question: "Which word is a conjunction?", answers: ["And", "Dog", "Run", "Red"], correct: 0 },
+            { question: "What is the synonym of 'laugh'?", answers: ["Cry", "Giggle", "Shout", "Whisper"], correct: 1 },
+            { question: "Which sentence is a statement?", answers: ["Where is she?", "Look out!", "He is reading a book.", "Can you help me?"], correct: 2 }
+        ],
+        hindi: [
+            { question: "व्याकरण क्या है?", answers: ["संज्ञा", "संधि", "शब्दों का विन्यास", "वाक्य"], correct: 2 },
+            { question: "वाक्य क्या है?", answers: ["अक्षरों का समूह", "विशेषणों का समूह", "शब्दों का समूह", "शब्दों और वाक्यांशों का समूह"], correct: 3 },
+            { question: "हिंदी वर्णमाला में कुल कितने वर्ण होते हैं?", answers: ["25", "26", "27", "28"], correct: 1 },
+            { question: "सार्वनाम क्या होता है?", answers: ["नाम", "गुण", "क्रिया के स्थान", "व्यक्ति या वस्तु की जगह"], correct: 3 },
+            { question: "निम्नलिखित में से कौन सा वाक्य है?", answers: ["हर्ष खुशी से नाचा", "आओ चलें", "बच्चे खेल रहे हैं", "दिवाली त्योहार है"], correct: 0 },
+            { question: "क्रिया क्या होती है?", answers: ["काम करने वाले शब्द", "संज्ञा के बारे में बताने वाले शब्द", "काम का बोध कराने वाले शब्द", "गुण का बोध कराने वाले शब्द"], correct: 2 },
+            { question: "विराम चिह्न का क्या उपयोग होता है?", answers: ["संज्ञा के बारे में बताने वाले शब्द", "वाक्यों को विभाजित करने के लिए", "गुण का बोध कराने वाले शब्द", "काम का बोध कराने वाले शब्द"], correct: 1 },
+            { question: "वाक्य में कितने काल होते हैं?", answers: ["2", "3", "4", "5"], correct: 1 },
+            { question: "निम्नलिखित में से कौन सा शब्द सर्वनाम है?", answers: ["राम", "पीला", "यह", "घोड़ा"], correct: 2 },
+            { question: "किस शब्द का पर्यायवाची 'रोटी' है?", answers: ["बिस्कुट", "खिचड़ी", "चावल", "नान"], correct: 0 },
+            { question: "किस शब्द का विलोम 'अंधेरा' है?", answers: ["उजाला", "अँधेरा", "चाँदनी", "प्रकाश"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'खुशी' होता है?", answers: ["दुःख", "खुशी", "प्यार", "गम"], correct: 1 },
+            { question: "किस शब्द का पर्यायवाची 'पक्षी' है?", answers: ["जीव", "पशु", "जन्तु", "चिरिया"], correct: 3 },
+            { question: "किस शब्द का पर्यायवाची 'पृथ्वी' है?", answers: ["जल", "अग्नि", "धरती", "आकाश"], correct: 2 },
+            { question: "किस शब्द का विलोम 'अमीर' है?", answers: ["गरीब", "धनी", "साधारण", "मध्यम"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'सागर' होता है?", answers: ["नदी", "तालाब", "झील", "समुद्र"], correct: 3 },
+            { question: "किस शब्द का विलोम 'मित्र' है?", answers: ["शत्रु", "साथी", "प्रिय", "गुरु"], correct: 0 },
+            { question: "किस शब्द का पर्यायवाची 'जल' है?", answers: ["अग्नि", "वायु", "नीर", "भूमि"], correct: 2 },
+            { question: "किस शब्द का विलोम 'शांत' है?", answers: ["क्रोधित", "आनंदित", "सुखी", "दुखी"], correct: 0 },
+            { question: "किस शब्द का अर्थ 'वृक्ष' होता है?", answers: ["पौधा", "जंगल", "पेड़", "फूल"], correct: 2 }
+    ]
     },
     6: {
         math: [
@@ -414,6 +633,55 @@ button:hover {
     { question: "What material is used to make a magnet?", answers: ["Wood", "Plastic", "Iron", "Glass"], correct: 2 },
     { question: "What is the force that makes things fall to the ground?", answers: ["Magnetism", "Gravity", "Friction", "Air pressure"], correct: 1 },
     { question: "What happens to a shadow when the light source is very low?", answers: ["Shadow gets shorter", "Shadow gets longer", "Shadow remains the same", "Shadow disappears"], correct: 1 }
+        ],
+        english: [
+            // Tenses Questions
+            { question: "Identify the tense: I will be going to the market tomorrow.", answers: ["Present Simple", "Past Simple", "Future Continuous", "Present Continuous"], correct: 2 },
+            { question: "Identify the tense: She eats an apple every day.", answers: ["Present Simple", "Past Simple", "Future Simple", "Present Perfect"], correct: 0 },
+            { question: "Identify the tense: They had finished their homework before the movie started.", answers: ["Past Perfect", "Past Simple", "Present Perfect", "Future Perfect"], correct: 0 },
+            { question: "Identify the tense: We are playing football now.", answers: ["Present Simple", "Present Continuous", "Past Continuous", "Future Continuous"], correct: 1 },
+            { question: "Identify the tense: He has just completed his assignment.", answers: ["Present Perfect", "Past Simple", "Future Simple", "Present Continuous"], correct: 0 },
+            
+            // General English Questions
+            { question: "Choose the correct synonym for 'Happy'.", answers: ["Sad", "Joyful", "Angry", "Tired"], correct: 1 },
+            { question: "Fill in the blank: She ___ to school by bus every day.", answers: ["go", "going", "goes", "gone"], correct: 2 },
+            { question: "Identify the adjective in the sentence: The quick brown fox jumps over the lazy dog.", answers: ["quick", "jumps", "over", "dog"], correct: 0 },
+            { question: "Which of the following is a noun?", answers: ["Run", "Happy", "Quickly", "Car"], correct: 3 },
+            { question: "Fill in the blank: They ___ playing in the park when it started to rain.", answers: ["are", "was", "were", "is"], correct: 2 },
+            { question: "Choose the correct antonym for 'Hot'.", answers: ["Warm", "Cold", "Boiling", "Mild"], correct: 1 },
+            { question: "Identify the pronoun in the sentence: She gave her friend a gift.", answers: ["She", "gave", "friend", "gift"], correct: 0 },
+            { question: "Fill in the blank with the correct form of the verb: He ___ a book every month.", answers: ["read", "reads", "reading", "readed"], correct: 1 },
+            { question: "Choose the correct article: He is ___ honest man.", answers: ["a", "an", "the", "no article needed"], correct: 1 },
+            { question: "Fill in the blank with the correct preposition: The cat is hiding ___ the table.", answers: ["on", "in", "under", "over"], correct: 2 },
+            
+            // Miscellaneous Questions
+            { question: "What is the capital of France?", answers: ["Paris", "London", "Rome", "Berlin"], correct: 0 },
+            { question: "How many continents are there in the world?", answers: ["5", "6", "7", "8"], correct: 2 },
+            { question: "Which planet is known as the Red Planet?", answers: ["Earth", "Mars", "Jupiter", "Saturn"], correct: 1 },
+            { question: "What is the chemical symbol for water?", answers: ["H2O", "CO2", "O2", "HO"], correct: 0 },
+            { question: "Who wrote 'Romeo and Juliet'?", answers: ["Mark Twain", "Charles Dickens", "William Shakespeare", "Jane Austen"], correct: 2 }
+        ],
+        hindi: [
+            { question: "‘अतिथि’ शब्द का विलोम क्या है?", answers: ["मित्र", "शत्रु", "स्वागत", "स्वजन"], correct: 1 },
+            { question: "‘अग्नि’ का पर्यायवाची शब्द क्या है?", answers: ["जल", "वायु", "पानी", "अनल"], correct: 3 },
+            { question: "‘अंधकार’ का विलोम शब्द क्या है?", answers: ["अजगर", "प्रकाश", "प्यार", "सूरज"], correct: 1 },
+            { question: "‘अमृत’ का विलोम शब्द क्या है?", answers: ["जहर", "मृत्यु", "आनंद", "जीवन"], correct: 0 },
+            { question: "‘अन्याय’ का विलोम शब्द क्या है?", answers: ["सत्य", "न्याय", "धर्म", "अधर्म"], correct: 1 },
+            { question: "‘बालक’ का स्त्रीलिंग क्या है?", answers: ["बालिका", "लड़की", "नारी", "महिला"], correct: 0 },
+            { question: "‘बुद्धि’ का पर्यायवाची शब्द क्या है?", answers: ["ज्ञान", "शक्ति", "विकास", "बल"], correct: 0 },
+            { question: "‘विद्या’ का विलोम शब्द क्या है?", answers: ["ज्ञान", "अज्ञान", "पढ़ाई", "सिखाई"], correct: 1 },
+            { question: "‘जल’ का पर्यायवाची शब्द क्या है?", answers: ["पानी", "वायु", "अग्नि", "पृथ्वी"], correct: 0 },
+            { question: "‘कठिन’ का विलोम शब्द क्या है?", answers: ["सरल", "मध्यम", "आसान", "सुखद"], correct: 0 },
+            { question: "‘दुख’ का पर्यायवाची शब्द क्या है?", answers: ["आनंद", "विषाद", "शोक", "प्रसन्नता"], correct: 2 },
+            { question: "‘धरती’ का पर्यायवाची शब्द क्या है?", answers: ["पृथ्वी", "अंतरिक्ष", "सागर", "आकाश"], correct: 0 },
+            { question: "‘पुस्तक’ का पर्यायवाची शब्द क्या है?", answers: ["पढ़ाई", "किताब", "ज्ञान", "लेखन"], correct: 1 },
+            { question: "‘सूर्य’ का पर्यायवाची शब्द क्या है?", answers: ["चंद्रमा", "रवि", "आकाश", "दिन"], correct: 1 },
+            { question: "‘रात्रि’ का विलोम शब्द क्या है?", answers: ["दोपहर", "सांझ", "सुबह", "दिन"], correct: 3 },
+            { question: "‘हृदय’ का पर्यायवाची शब्द क्या है?", answers: ["मस्तिष्क", "दिल", "जिगर", "हाथ"], correct: 1 },
+            { question: "‘ज्ञान’ का विलोम शब्द क्या है?", answers: ["अज्ञान", "विद्या", "शक्ति", "बल"], correct: 0 },
+            { question: "‘मित्र’ का पर्यायवाची शब्द क्या है?", answers: ["शत्रु", "सहायक", "दुश्मन", "साथी"], correct: 3 },
+            { question: "‘सत्य’ का विलोम शब्द क्या है?", answers: ["असत्य", "अधर्म", "झूठ", "मिथ्या"], correct: 0 },
+            { question: "‘प्रकृति’ का पर्यायवाची शब्द क्या है?", answers: ["विज्ञान", "पर्यावरण", "दृश्य", "प्रकाश"], correct: 1 }
         ]
     },
     7: {
@@ -460,6 +728,55 @@ button:hover {
             { question: "Which organ is responsible for pumping blood throughout the body?", answers: ["Brain", "Liver", "Heart", "Kidney"], correct: 2 },
             { question: "What is the chemical formula for water?", answers: ["H2O", "CO2", "O2", "H2"], correct: 0 },
             { question: "What is the pH value of a neutral substance?", answers: ["1", "7", "10", "14"], correct: 1 }
+        ],
+        english: [
+            // Tenses Questions
+            { question: "She ________ to school every day.", answers: ["goes", "go", "went", "gone"], correct: 0 },
+            { question: "I ________ a book last night.", answers: ["read", "reads", "reading", "have read"], correct: 0 },
+            { question: "They ________ playing soccer when it started to rain.", answers: ["were", "are", "is", "was"], correct: 0 },
+            { question: "He ________ his homework before dinner.", answers: ["finished", "finishes", "finishing", "finish"], correct: 0 },
+            { question: "We ________ to the park yesterday.", answers: ["went", "goes", "gone", "going"], correct: 0 },
+
+            // Subject-Verb Agreement Questions
+            { question: "The dog ________ barking loudly.", answers: ["is", "are", "were", "am"], correct: 0 },
+            { question: "Each of the students ________ a book.", answers: ["has", "have", "having", "had"], correct: 0 },
+            { question: "The keys ________ on the table.", answers: ["are", "is", "was", "has"], correct: 0 },
+            { question: "Neither the teacher nor the students ________ here.", answers: ["is", "are", "was", "were"], correct: 1 },
+            { question: "Everyone ________ to the party.", answers: ["comes", "come", "came", "coming"], correct: 0 },
+
+            // Mixed Questions
+            { question: "He ________ to the gym every morning.", answers: ["goes", "go", "gone", "going"], correct: 0 },
+            { question: "They ________ already left when we arrived.", answers: ["had", "has", "have", "having"], correct: 0 },
+            { question: "The committee ________ to meet next week.", answers: ["plans", "plan", "planned", "planning"], correct: 0 },
+            { question: "She ________ in the garden when it started raining.", answers: ["was", "is", "were", "am"], correct: 0 },
+            { question: "The children ________ happy to see their grandparents.", answers: ["are", "is", "was", "has"], correct: 0 },
+            { question: "I ________ a movie last night.", answers: ["watched", "watch", "watches", "watching"], correct: 0 },
+            { question: "The cat ________ under the bed.", answers: ["is hiding", "hiding", "hide", "hides"], correct: 0 },
+            { question: "Both of my brothers ________ football.", answers: ["play", "plays", "playing", "played"], correct: 0 },
+            { question: "She ________ the piano beautifully.", answers: ["plays", "play", "playing", "played"], correct: 0 },
+            { question: "He ________ to finish the work by tomorrow.", answers: ["needs", "need", "needed", "needing"], correct: 0 }
+        ],
+        hindi: [
+            { question: "सूर्य किस दिशा से उगता है?", answers: ["उत्तर", "दक्षिण", "पूर्व", "पश्चिम"], correct: 2 },
+            { question: "रामायण के रचयिता कौन हैं?", answers: ["कबीर", "तुलसीदास", "सूरदास", "वाल्मीकि"], correct: 3 },
+            { question: "भारत की राजधानी क्या है?", answers: ["मुंबई", "कोलकाता", "दिल्ली", "चेन्नई"], correct: 2 },
+            { question: "ताजमहल कहाँ स्थित है?", answers: ["दिल्ली", "आगरा", "जयपुर", "लखनऊ"], correct: 1 },
+            { question: "गुरु गोविन्द सिंह किस धर्म के थे?", answers: ["हिन्दू", "मुस्लिम", "सिख", "जैन"], correct: 2 },
+            { question: "महात्मा गांधी का पूरा नाम क्या था?", answers: ["मोहनलाल गांधी", "मोहनदास करमचंद गांधी", "मोहनदास गांधी", "मोहन करमचंद गांधी"], correct: 1 },
+            { question: "कौन सा त्यौहार दिवाली के बाद आता है?", answers: ["होली", "ईद", "क्रिसमस", "मकर संक्रांति"], correct: 3 },
+            { question: "किस राज्य को 'भारत का अन्न भंडार' कहा जाता है?", answers: ["पंजाब", "हरियाणा", "उत्तर प्रदेश", "बिहार"], correct: 0 },
+            { question: "कौन सा पर्वत सबसे ऊँचा है?", answers: ["आल्प्स", "हिमालय", "आंदेस", "रॉकी"], correct: 1 },
+            { question: "राष्ट्रीय पक्षी कौन है?", answers: ["कौआ", "तोता", "मोर", "गौरैया"], correct: 2 },
+            { question: "नील नदी कहाँ बहती है?", answers: ["एशिया", "यूरोप", "अफ्रीका", "दक्षिण अमेरिका"], correct: 2 },
+            { question: "कविता के किस छंद में चार पंक्तियाँ होती हैं?", answers: ["सोरठा", "दोहा", "रोला", "चौपाई"], correct: 3 },
+            { question: "कौन सी धातु सबसे हल्की होती है?", answers: ["लोहा", "चाँदी", "सोना", "एल्यूमीनियम"], correct: 3 },
+            { question: "किस शब्द का विलोम 'सत्य' है?", answers: ["मिथ्या", "सपना", "स्वप्न", "सच"], correct: 0 },
+            { question: "कौन सा शब्द 'छोटा' का पर्यायवाची है?", answers: ["नन्हा", "लम्बा", "मोटा", "बड़ा"], correct: 0 },
+            { question: "किस शब्द का विलोम 'मित्र' है?", answers: ["साथी", "गुरु", "शत्रु", "संगी"], correct: 2 },
+            { question: "कौन सा शब्द 'खुशी' का पर्यायवाची है?", answers: ["दुःख", "सुख", "आशा", "संतोष"], correct: 1 },
+            { question: "भारत का राष्ट्रीय पशु कौन है?", answers: ["हाथी", "शेर", "बाघ", "गाय"], correct: 2 },
+            { question: "किस शब्द का पर्यायवाची 'आकाश' है?", answers: ["धरती", "पृथ्वी", "गगन", "नभ"], correct: 2 },
+            { question: "किस शब्द का अर्थ 'जल' होता है?", answers: ["नदी", "समुद्र", "पेय", "पानी"], correct: 3 },
         ]
     },
     8: {
@@ -506,6 +823,50 @@ button:hover {
             { question: "What is the basic unit of life?", answers: ["Cell", "Tissue", "Organ", "System"], correct: 0 },
             { question: "What is photosynthesis?", answers: ["Process by which plants make their food", "Process by which animals make their food", "Process by which plants reproduce", "Process by which animals reproduce"], correct: 0 },
             { question: "What is the chemical formula of water?", answers: ["H2O", "CO2", "O2", "H2"], correct: 0 }
+        ],
+        english: [
+            { question: "Choose the correct form of the verb: She ____ to the store every day.", answers: ["go", "goes", "going", "gone"], correct: 1 },
+            { question: "Identify the sentence with the correct punctuation.", answers: ["My sister is a doctor.", "My sister is a doctor!", "My sister is a doctor,", "My sister is a doctor?"], correct: 0 },
+            { question: "Which sentence uses the correct form of the adjective?", answers: ["She is more smart than him.", "She is smarter than him.", "She is more smarter than him.", "She is the smarter than him."], correct: 1 },
+            { question: "What is the plural form of 'child'?", answers: ["childs", "childes", "children", "childrens"], correct: 2 },
+            { question: "Which sentence is written in passive voice?", answers: ["The cat chased the mouse.", "The mouse was chased by the cat.", "The cat is chasing the mouse.", "The mouse chases the cat."], correct: 1 },
+            { question: "Choose the correct form: He has ____ his homework.", answers: ["finish", "finishing", "finished", "finishes"], correct: 2 },
+            { question: "Identify the sentence with correct subject-verb agreement.", answers: ["The dogs runs fast.", "The dogs run fast.", "The dog run fast.", "The dog running fast."], correct: 1 },
+            { question: "Select the correct pronoun to complete the sentence: ____ are going to the park.", answers: ["They", "Them", "He", "She"], correct: 0 },
+            { question: "Choose the sentence that uses a conjunction correctly.", answers: ["I wanted to go, but it was raining.", "I wanted to go but it was raining.", "I wanted to go but, it was raining.", "I wanted to go. But it was raining."], correct: 0 },
+            { question: "Identify the type of sentence: 'Please close the door.'", answers: ["Declarative", "Interrogative", "Imperative", "Exclamatory"], correct: 2 },
+            { question: "Which word is a synonym of 'happy'?", answers: ["Sad", "Joyful", "Angry", "Tired"], correct: 1 },
+            { question: "Choose the correct form of the verb: They ____ the project by next week.", answers: ["complete", "completed", "will complete", "completes"], correct: 2 },
+            { question: "Identify the correct preposition: She is good ____ playing piano.", answers: ["in", "on", "at", "for"], correct: 2 },
+            { question: "What is the correct order of adjectives in the sentence: 'She bought a ____ dress.'", answers: ["red beautiful long", "long beautiful red", "beautiful red long", "beautiful long red"], correct: 3 },
+            { question: "Which sentence contains a gerund?", answers: ["Running is fun.", "He will run tomorrow.", "She runs every morning.", "They ran quickly."], correct: 0 },
+            { question: "Choose the sentence with the correct comparative form of the adjective.", answers: ["She is more tall than her brother.", "She is taller than her brother.", "She is tallest than her brother.", "She is tall than her brother."], correct: 1 },
+            { question: "Identify the sentence with the correct use of an apostrophe.", answers: ["Its a beautiful day.", "It's a beautiful day.", "Its' a beautiful day.", "It's' a beautiful day."], correct: 1 },
+            { question: "Select the sentence with the correct modal verb.", answers: ["He can to swim.", "He can swim.", "He cans swim.", "He could swims."], correct: 1 },
+            { question: "Which sentence is in the future perfect tense?", answers: ["She will finish the project.", "She has finished the project.", "She had finished the project.", "She will have finished the project."], correct: 3 },
+            { question: "Choose the correct article: I need ____ apple from the store.", answers: ["a", "an", "the", "none"], correct: 1 }
+        ],
+        hindi: [
+        { question: "सूर्य किस दिशा से उगता है?", answers: ["उत्तर", "दक्षिण", "पूर्व", "पश्चिम"], correct: 2 },
+    { question: "रामायण के रचयिता कौन हैं?", answers: ["कबीर", "तुलसीदास", "सूरदास", "वाल्मीकि"], correct: 3 },
+    { question: "भारत की राजधानी क्या है?", answers: ["मुंबई", "कोलकाता", "दिल्ली", "चेन्नई"], correct: 2 },
+    { question: "ताजमहल कहाँ स्थित है?", answers: ["दिल्ली", "आगरा", "जयपुर", "लखनऊ"], correct: 1 },
+    { question: "गुरु गोविन्द सिंह किस धर्म के थे?", answers: ["हिन्दू", "मुस्लिम", "सिख", "जैन"], correct: 2 },
+    { question: "महात्मा गांधी का पूरा नाम क्या था?", answers: ["मोहनलाल गांधी", "मोहनदास करमचंद गांधी", "मोहनदास गांधी", "मोहन करमचंद गांधी"], correct: 1 },
+    { question: "कौन सा त्यौहार दिवाली के बाद आता है?", answers: ["होली", "ईद", "क्रिसमस", "मकर संक्रांति"], correct: 3 },
+    { question: "किस राज्य को 'भारत का अन्न भंडार' कहा जाता है?", answers: ["पंजाब", "हरियाणा", "उत्तर प्रदेश", "बिहार"], correct: 0 },
+    { question: "कौन सा पर्वत सबसे ऊँचा है?", answers: ["आल्प्स", "हिमालय", "आंदेस", "रॉकी"], correct: 1 },
+    { question: "राष्ट्रीय पक्षी कौन है?", answers: ["कौआ", "तोता", "मोर", "गौरैया"], correct: 2 },
+    { question: "नील नदी कहाँ बहती है?", answers: ["एशिया", "यूरोप", "अफ्रीका", "दक्षिण अमेरिका"], correct: 2 },
+    { question: "कविता के किस छंद में चार पंक्तियाँ होती हैं?", answers: ["सोरठा", "दोहा", "रोला", "चौपाई"], correct: 3 },
+    { question: "कौन सी धातु सबसे हल्की होती है?", answers: ["लोहा", "चाँदी", "सोना", "एल्यूमीनियम"], correct: 3 },
+    { question: "किस शब्द का विलोम 'सत्य' है?", answers: ["मिथ्या", "सपना", "स्वप्न", "सच"], correct: 0 },
+    { question: "कौन सा शब्द 'छोटा' का पर्यायवाची है?", answers: ["नन्हा", "लम्बा", "मोटा", "बड़ा"], correct: 0 },
+    { question: "किस शब्द का विलोम 'मित्र' है?", answers: ["साथी", "गुरु", "शत्रु", "संगी"], correct: 2 },
+    { question: "कौन सा शब्द 'खुशी' का पर्यायवाची है?", answers: ["दुःख", "सुख", "आशा", "संतोष"], correct: 1 },
+    { question: "भारत का राष्ट्रीय पशु कौन है?", answers: ["हाथी", "शेर", "बाघ", "गाय"], correct: 2 },
+    { question: "किस शब्द का पर्यायवाची 'आकाश' है?", answers: ["धरती", "पृथ्वी", "गगन", "नभ"], correct: 2 },
+    { question: "किस शब्द का अर्थ 'जल' होता है?", answers: ["नदी", "समुद्र", "पेय", "पानी"], correct: 3 }
         ]
     },
     9: {
@@ -587,7 +948,52 @@ button:hover {
             { question: "What does Newton's third law of motion state?", answers: ["An object in motion stays in motion", "Force equals mass times acceleration", "For every action, there is an equal and opposite reaction", "An object will remain at rest unless acted on by a force"], correct: 2 },
             { question: "Explain inertia.", answers: ["Resistance to change in motion", "Force applied over a distance", "Energy stored in an object", "Mass in motion"], correct: 0 },
             { question: "How does Newton's second law apply to a car accelerating?", answers: ["The car's acceleration is proportional to the net force applied", "The car's mass increases with acceleration", "The car's speed is constant regardless of force", "The car moves in the opposite direction of the force"], correct: 0 }
+        ],
+        english: [
+            { question: "Choose the correct sentence.", answers: ["She don't like pizza.", "She doesn't like pizza.", "She doesn't likes pizza.", "She don't likes pizza."], correct: 1 },
+            { question: "Identify the passive voice of 'The cat chased the mouse'.", answers: ["The mouse is chased by the cat.", "The mouse was chased by the cat.", "The mouse has been chased by the cat.", "The mouse had been chased by the cat."], correct: 1 },
+            { question: "Which sentence uses the subjunctive mood correctly?", answers: ["If I was you, I would leave.", "If I am you, I would leave.", "If I were you, I would leave.", "If I be you, I would leave."], correct: 2 },
+            { question: "Choose the correct form of the verb: 'Neither of the students ____ finished their homework.'", answers: ["have", "has", "having", "was"], correct: 1 },
+            { question: "Select the sentence with correct punctuation.", answers: ["Its raining outside, isn't it?", "It's raining outside, isnt it?", "Its raining outside isn't it?", "It's raining outside, isn't it?"], correct: 3 },
+            { question: "Choose the correct relative pronoun: 'The book, ____ I borrowed, is interesting.'", answers: ["who", "whom", "which", "that"], correct: 2 },
+            { question: "Identify the error: 'Everyone should bring their own lunch.'", answers: ["Everyone", "should", "bring", "their"], correct: 3 },
+            { question: "Choose the correct conditional sentence.", answers: ["If he will come, we will start the meeting.", "If he come, we will start the meeting.", "If he comes, we will start the meeting.", "If he will comes, we will start the meeting."], correct: 2 },
+            { question: "Which sentence is in the correct tense?", answers: ["He has went to the store.", "He had gone to the store.", "He has gone to the store.", "He had went to the store."], correct: 2 },
+            { question: "Choose the correct sentence with parallel structure.", answers: ["She likes reading, writing, and to jog.", "She likes to read, write, and jog.", "She likes reading, writing, and jogging.", "She likes to read, writing, and jogging."], correct: 2 },
+            { question: "Identify the correct form of the adjective: 'This is the ____ book I have ever read.'", answers: ["good", "better", "best", "more better"], correct: 2 },
+            { question: "Choose the correct sentence using a modal verb.", answers: ["She can sings well.", "She can sing well.", "She could sings well.", "She could singed well."], correct: 1 },
+            { question: "Identify the error: 'She is more smarter than her brother.'", answers: ["She", "is", "more smarter", "than"], correct: 2 },
+            { question: "Which sentence is correct?", answers: ["He has less books than she does.", "He has fewer books than she does.", "He has fewer books then she does.", "He has lesser books than she does."], correct: 1 },
+            { question: "Choose the correct form: 'By this time next year, I ____ my degree.'", answers: ["will have completed", "will completed", "would have completed", "have completed"], correct: 0 },
+            { question: "Identify the correct use of a comma.", answers: ["Although it was raining, we went for a walk.", "Although, it was raining we went for a walk.", "Although it was raining we went, for a walk.", "Although it was raining we went for a walk."], correct: 0 },
+            { question: "Choose the correct sentence.", answers: ["Whom did you meet at the party?", "Who did you meet at the party?", "Whose did you meet at the party?", "Who did you met at the party?"], correct: 1 },
+            { question: "Which sentence is in the correct passive voice?", answers: ["The cake was ate by the children.", "The cake was eaten by the children.", "The cake were eaten by the children.", "The cake is being eat by the children."], correct: 1 },
+            { question: "Choose the correct word: 'He has a ____ outlook on life.'", answers: ["positiv", "positive", "positively", "positiveness"], correct: 1 },
+            { question: "Identify the correct use of an apostrophe.", answers: ["Its a beautiful day.", "It's a beautiful day.", "Its' a beautiful day.", "Its's a beautiful day."], correct: 1 }
+        ],
+        hindi: [
+        { question: "उनके घर _____ है?", answers: ["बहुत बड़ा", "बहुत बड़ी", "बहुत बड़े", "बहुत बड़े हैं"], correct: 2 },
+    { question: "तुम्हारे पिताजी _____ कहाँ हैं?", answers: ["अभी", "वहाँ", "कहीं", "यहाँ"], correct: 0 },
+    { question: "मैंने उससे _____ खेला।", answers: ["क्योंकि", "या", "पर", "जब"], correct: 3 },
+    { question: "तुम्हें वह _____ कहाँ दिखाई दी?", answers: ["क्यों", "कैसे", "कब", "कहाँ"], correct: 3 },
+    { question: "वह बाजार से _____ लाएगा।", answers: ["फल", "फलों", "फलो", "फलों से"], correct: 1 },
+    { question: "अच्छे बच्चे _____ अध्ययन करते हैं।", answers: ["सब", "दोनों", "सभी", "दो"], correct: 2 },
+    { question: "राम _____ कहाँ है?", answers: ["अभी", "तक", "जाने", "आ चुके"], correct: 0 },
+    { question: "तुमने अपनी किताब _____ क्यों नहीं खोई?", answers: ["क्यों", "कैसे", "कब", "कहाँ"], correct: 3 },
+    { question: "वह अपनी माँ के साथ _____ गया।", answers: ["बहुत", "बहुत सी", "बहुत से", "बहुत सारे"], correct: 2 },
+    { question: "तुम _____ आओगे?", answers: ["कब", "क्या", "कहाँ", "किसके साथ"], correct: 0 },
+    { question: "क्या तुमने _____ देखा है?", answers: ["यह", "वह", "उसका", "कुछ"], correct: 3 },
+    { question: "उसने _____ बुजुर्गों की सेवा की।", answers: ["सदैव", "कभी", "किसी दिन", "अकसर"], correct: 0 },
+    { question: "राम ने _____ गरीब बच्चे को खिलाया।", answers: ["किताब", "एक", "कुछ", "कुछ भी"], correct: 1 },
+    { question: "तुम _____ कैसे हो?", answers: ["अब", "किसी", "कैसे", "बहुत"], correct: 2 },
+    { question: "तुम्हारी _____ अच्छी है।", answers: ["स्कूल", "स्कूलों", "स्कूल की", "स्कूलों की"], correct: 2 },
+    { question: "तुम्हारे यहाँ _____ हैं?", answers: ["क्या", "कौनसे", "कितने", "कितनी"], correct: 3 },
+    { question: "आज रात के _____ जाऊँगा।", answers: ["बाद", "बारे", "बादले", "बारिश"], correct: 0 },
+    { question: "वे _____ अध्ययन करते हैं।", answers: ["अधिकतर", "सबसे", "कभी", "कभी-कभी"], correct: 3 },
+    { question: "राम _____ अपने मित्र से मिलने गया है।", answers: ["उस", "वह", "तब", "तुम"], correct: 1 },
+    { question: "तुम उसे _____ क्यों बताओगे?", answers: ["कैसे", "क्यों", "कब", "कहाँ"], correct: 0 }
         ]
+
     },
     10: {
         math: [
@@ -735,6 +1141,130 @@ button:hover {
             { question: "What is the main function of red blood cells?", answers: ["Transport oxygen", "Fight infections", "Produce hormones", "Clot blood"], correct: 0 },
             { question: "What is the chemical formula for methane?", answers: ["CH₄", "C₂H₆", "C₃H₈", "C₄H₁₀"], correct: 0 },
             { question: "What is the law of conservation of energy?", answers: ["Energy cannot be created or destroyed", "Energy can be created", "Energy can be destroyed", "Energy is unlimited"], correct: 0 }
+        ],
+        english: [
+            {
+                question: "Which of the following is a synonym of 'abandon'?",
+                answers: ["Keep", "Leave", "Stay", "Arrive"],
+                correct: 1
+            },
+            {
+                question: "What is the antonym of 'expand'?",
+                answers: ["Extend", "Contract", "Grow", "Enlarge"],
+                correct: 1
+            },
+            {
+                question: "Which of these is an adjective?",
+                answers: ["Beautiful", "Quickly", "Run", "Play"],
+                correct: 0
+            },
+            {
+                question: "What is the plural form of 'mouse'?",
+                answers: ["Mouses", "Mouse", "Mice", "Mices"],
+                correct: 2
+            },
+            {
+                question: "What is the past tense of 'go'?",
+                answers: ["Goes", "Gone", "Went", "Going"],
+                correct: 2
+            },
+            {
+                question: "Which word is a preposition?",
+                answers: ["Quick", "Under", "Jump", "Beautiful"],
+                correct: 1
+            },
+            {
+                question: "Choose the correct form of the verb: 'She _____ to school every day.'",
+                answers: ["Go", "Goes", "Gone", "Going"],
+                correct: 1
+            },
+            {
+                question: "Which of the following is a pronoun?",
+                answers: ["He", "Happy", "Run", "Tree"],
+                correct: 0
+            },
+            {
+                question: "What is the correct spelling?",
+                answers: ["Recieve", "Receive", "Recieve", "Receeve"],
+                correct: 1
+            },
+            {
+                question: "Which word is a conjunction?",
+                answers: ["And", "Run", "Jump", "Happy"],
+                correct: 0
+            },
+            {
+                question: "What is the superlative form of 'good'?",
+                answers: ["Gooder", "Goodest", "Better", "Best"],
+                correct: 3
+            },
+            {
+                question: "What is the subject in the sentence: 'The cat sat on the mat'?",
+                answers: ["The", "Cat", "Sat", "Mat"],
+                correct: 1
+            },
+            {
+                question: "Which sentence is in passive voice?",
+                answers: ["The dog chased the cat", "The cat was chased by the dog", "The dog is chasing the cat", "The cat is being chased"],
+                correct: 1
+            },
+            {
+                question: "Which word is an adverb?",
+                answers: ["Quickly", "Quick", "Quicker", "Quickness"],
+                correct: 0
+            },
+            {
+                question: "Which of these is a homophone?",
+                answers: ["Buy", "Bye", "By", "All of the above"],
+                correct: 3
+            },
+            {
+                question: "What is the correct punctuation for a question?",
+                answers: [".", "!", "?", ";"],
+                correct: 2
+            },
+            {
+                question: "Which sentence is correct?",
+                answers: ["She don't like pizza", "She doesn't likes pizza", "She doesn't like pizza", "She not like pizza"],
+                correct: 2
+            },
+            {
+                question: "What is the comparative form of 'happy'?",
+                answers: ["Happiest", "Happier", "More happy", "Most happy"],
+                correct: 1
+            },
+            {
+                question: "Which of these is an interrogative sentence?",
+                answers: ["She is going to school", "Is she going to school?", "She goes to school", "She will go to school"],
+                correct: 1
+            },
+            {
+                question: "Choose the correct article: 'She is ___ honest person.'",
+                answers: ["a", "an", "the", "none"],
+                correct: 1
+            }
+        ],
+        hindi: [
+            { question: "भारत के प्रथम प्रधानमंत्री कौन थे?", answers: ["महात्मा गांधी", "सुभाष चंद्र बोस", "जवाहरलाल नेहरू", "लाल बहादुर शास्त्री"], correct: 2 },
+    { question: "तुलसीदास ने किस भाषा में रामचरितमानस की रचना की?", answers: ["संस्कृत", "अवधी", "ब्रज", "खड़ी बोली"], correct: 1 },
+    { question: "शुद्ध वर्तनी वाला शब्द चुनें:", answers: ["किताब", "किताव", "किताव्", "कितब"], correct: 0 },
+    { question: "‘चरण’ शब्द का समानार्थी शब्द क्या है?", answers: ["पैर", "गति", "दिशा", "उड़ान"], correct: 0 },
+    { question: "‘आकाश’ का पर्यायवाची शब्द क्या है?", answers: ["धरा", "अंबर", "नीर", "प्रकृति"], correct: 1 },
+    { question: "‘अपना काम बनता, भाड़ में जाए जनता’ किस मुहावरे का अर्थ है?", answers: ["स्वार्थी होना", "साहसी होना", "मददगार होना", "समाजसेवी होना"], correct: 0 },
+    { question: "‘नभ’ का विलोम शब्द क्या है?", answers: ["भूतल", "पृथ्वी", "भूमि", "धरा"], correct: 0 },
+    { question: "किस शब्द में सन्धि नहीं है?", answers: ["देवालय", "जलपान", "नीलकंठ", "विमान"], correct: 3 },
+    { question: "‘गुरु’ का बहुवचन क्या है?", answers: ["गुरुजनों", "गुरुओं", "गुरु", "गुरुजी"], correct: 1 },
+    { question: "निम्नलिखित में से कौन-सा एक लोकोक्ति है?", answers: ["अंधेर नगरी", "गागर में सागर", "आँखों का तारा", "आँखों में धूल झोंकना"], correct: 3 },
+    { question: "‘फूल’ का विलोम शब्द क्या है?", answers: ["पत्ता", "कांटा", "डाली", "टहनी"], correct: 1 },
+    { question: "‘सूर्य’ का पर्यायवाची शब्द क्या है?", answers: ["चंद्र", "तारा", "दिनकर", "रवि"], correct: 3 },
+    { question: "‘सिंह’ का पर्यायवाची शब्द क्या है?", answers: ["शेर", "गज", "मृग", "सर्प"], correct: 0 },
+    { question: "‘चल’ का विलोम शब्द क्या है?", answers: ["रुक", "ठहर", "बैठ", "खड़ा"], correct: 0 },
+    { question: "‘विद्या’ का पर्यायवाची शब्द क्या है?", answers: ["ज्ञान", "ज्ञानहीन", "ज्ञानरहित", "ज्ञानमूर्ति"], correct: 0 },
+    { question: "‘रामायण’ किसने लिखी?", answers: ["महर्षि वेदव्यास", "कबीरदास", "सूरदास", "महर्षि वाल्मीकि"], correct: 3 },
+    { question: "‘स्वतंत्रता’ का विलोम शब्द क्या है?", answers: ["गुलामी", "पराधीनता", "बंधुआ", "बंधक"], correct: 1 },
+    { question: "‘महान’ का पर्यायवाची शब्द क्या है?", answers: ["छोटा", "मध्यम", "उत्तम", "विशाल"], correct: 3 },
+    { question: "‘कृपया’ का विलोम शब्द क्या है?", answers: ["निश्चित", "अवश्य", "दया", "निषेध"], correct: 3 },
+    { question: "‘विद्यार्थी’ का पर्यायवाची शब्द क्या है?", answers: ["अध्यापक", "शिक्षक", "शिक्षार्थी", "विद्या"], correct: 2 }
         ]
     },
     11: {
@@ -882,6 +1412,51 @@ button:hover {
             { question: "What is the primary function of the kidneys in the human body?", answers: ["Filtration of blood", "Digestion", "Respiration", "Detoxification"], correct: 0 },
             { question: "What is the chemical symbol for silver?", answers: ["Ag", "Au", "Fe", "Pb"], correct: 0 },
             { question: "What is the process by which heat is transferred through a substance without the substance itself moving called?", answers: ["Conduction", "Convection", "Radiation", "Sublimation"], correct: 0 }
+        ],
+        english: [
+            { question: "Who is the author of 'To Kill a Mockingbird'?", answers: ["Harper Lee", "J.K. Rowling", "Charles Dickens", "Mark Twain"], correct: 0 },
+            { question: "In Shakespeare's play 'Romeo and Juliet', which family does Romeo belong to?", answers: ["Capulet", "Montague", "Lancaster", "York"], correct: 1 },
+            { question: "Who wrote the poem 'The Waste Land'?", answers: ["Robert Frost", "T.S. Eliot", "Emily Dickinson", "Sylvia Plath"], correct: 1 },
+            { question: "Which novel features the characters Holden Caulfield and Phoebe Caulfield?", answers: ["To Kill a Mockingbird", "The Catcher in the Rye", "Pride and Prejudice", "1984"], correct: 1 },
+            { question: "Who is the author of the play 'Death of a Salesman'?", answers: ["Arthur Miller", "Tennessee Williams", "Eugene O'Neill", "Samuel Beckett"], correct: 0 },
+            { question: "In which novel does the character Jay Gatsby appear?", answers: ["The Great Gatsby", "Moby-Dick", "Of Mice and Men", "The Old Man and the Sea"], correct: 0 },
+            { question: "Who wrote the novel '1984'?", answers: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "F. Scott Fitzgerald"], correct: 0 },
+            { question: "Which poet is known for his collection 'Leaves of Grass'?", answers: ["Emily Dickinson", "Walt Whitman", "Langston Hughes", "William Wordsworth"], correct: 1 },
+            { question: "In the play 'Hamlet', what is the famous soliloquy that begins with 'To be or not to be'?", answers: ["Act II, Scene ii", "Act III, Scene i", "Act V, Scene i", "Act I, Scene v"], correct: 1 },
+            { question: "Who is the author of 'Brave New World'?", answers: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "F. Scott Fitzgerald"], correct: 1 },
+            { question: "Which novel features the character Scarlett O'Hara?", answers: ["Pride and Prejudice", "Gone with the Wind", "Jane Eyre", "Little Women"], correct: 1 },
+            { question: "Who wrote the poem 'The Raven'?", answers: ["Walt Whitman", "Emily Dickinson", "Edgar Allan Poe", "Robert Frost"], correct: 2 },
+            { question: "Which novel features the character Atticus Finch?", answers: ["To Kill a Mockingbird", "The Catcher in the Rye", "Moby-Dick", "Of Mice and Men"], correct: 0 },
+            { question: "Who is the author of 'One Hundred Years of Solitude'?", answers: ["Gabriel García Márquez", "Isabel Allende", "Jorge Luis Borges", "Mario Vargas Llosa"], correct: 0 },
+            { question: "In which novel does the character Elizabeth Bennet appear?", answers: ["Pride and Prejudice", "Jane Eyre", "Wuthering Heights", "Gone with the Wind"], correct: 0 },
+            { question: "Who wrote the play 'Macbeth'?", answers: ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Milton"], correct: 0 },
+            { question: "In the novel 'Lord of the Flies', who is the leader of the boys stranded on the island?", answers: ["Jack", "Ralph", "Simon", "Piggy"], correct: 1 },
+            { question: "Which poet wrote the collection 'The Love Song of J. Alfred Prufrock'?", answers: ["Robert Frost", "T.S. Eliot", "Emily Dickinson", "Langston Hughes"], correct: 1 },
+            { question: "Who is the author of the novel 'Jane Eyre'?", answers: ["Charlotte Brontë", "Emily Brontë", "Anne Brontë", "Jane Austen"], correct: 0 },
+            { question: "Which novel features the character Holden Caulfield?", answers: ["To Kill a Mockingbird", "The Catcher in the Rye", "1984", "Pride and Prejudice"], correct: 1 },
+            { question: "Who wrote the play 'A Streetcar Named Desire'?", answers: ["Arthur Miller", "Tennessee Williams", "Eugene O'Neill", "Samuel Beckett"], correct: 1 }
+        ],
+        hindi: [
+             { question: "प्रसिद्ध हिंदी उपन्यास 'गोदान' के लेखक कौन हैं?", answers: ["मुंशी प्रेमचंद", "सूर्यकांत त्रिपाठी", "महादेवी वर्मा", "भारतेंदु हरिश्चंद्र"], correct: 0 },
+    { question: "सूर्यकांत त्रिपाठी 'निराला' किस साहित्यिक विधा के लिए प्रसिद्ध हैं?", answers: ["उपन्यास", "कविता", "नाटक", "निबंध"], correct: 1 },
+    { question: "‘आषाढ़ का एक दिन’ के लेखक कौन हैं?", answers: ["रामधारी सिंह दिनकर", "मोहन राकेश", "जयशंकर प्रसाद", "सच्चिदानंद हीरानंद वात्स्यायन 'अज्ञेय'"], correct: 1 },
+    { question: "भारत का संविधान कब लागू हुआ?", answers: ["15 अगस्त 1947", "26 जनवरी 1950", "2 अक्टूबर 1949", "25 दिसंबर 1950"], correct: 1 },
+    { question: "महादेवी वर्मा को किस काव्य धारा से जोड़ा जाता है?", answers: ["छायावाद", "प्रयोगवाद", "प्रगतिवाद", "रीतिकाल"], correct: 0 },
+    { question: "‘कामायनी’ किसकी रचना है?", answers: ["महादेवी वर्मा", "सूर्यकांत त्रिपाठी 'निराला'", "जयशंकर प्रसाद", "रामधारी सिंह दिनकर"], correct: 2 },
+    { question: "‘ध्रुवस्वामिनी’ नाटक के रचयिता कौन हैं?", answers: ["महावीर प्रसाद द्विवेदी", "रामकुमार वर्मा", "प्रेमचंद", "जयशंकर प्रसाद"], correct: 3 },
+    { question: "किस साहित्यकार को 'आधुनिक कबीर' कहा जाता है?", answers: ["हरिवंश राय बच्चन", "सूर्यकांत त्रिपाठी 'निराला'", "रामधारी सिंह दिनकर", "जयशंकर प्रसाद"], correct: 2 },
+    { question: "‘रश्मिरथी’ किसकी रचना है?", answers: ["महादेवी वर्मा", "रामधारी सिंह दिनकर", "सूर्यकांत त्रिपाठी 'निराला'", "जयशंकर प्रसाद"], correct: 1 },
+    { question: "‘अंधा युग’ नाटक के रचयिता कौन हैं?", answers: ["भीष्म साहनी", "मोहन राकेश", "धर्मवीर भारती", "नागार्जुन"], correct: 2 },
+    { question: "किस रचना के लिए 'नागार्जुन' प्रसिद्ध हैं?", answers: ["कोसी का घटवार", "धरती अब भी घूम रही है", "बालचंद", "खिचड़ी विप्लव देखा हमने"], correct: 3 },
+    { question: "‘सपनों के से दिन’ किसकी आत्मकथा है?", answers: ["मन्नू भंडारी", "महादेवी वर्मा", "सूर्यकांत त्रिपाठी 'निराला'", "जयशंकर प्रसाद"], correct: 0 },
+    { question: "‘गोदान’ उपन्यास का प्रमुख पात्र कौन है?", answers: ["होरी", "धनिया", "गोबर", "रूपा"], correct: 0 },
+    { question: "‘कसप’ उपन्यास के लेखक कौन हैं?", answers: ["धर्मवीर भारती", "कुशवंत सिंह", "मन्नू भंडारी", "मनु भंडारी"], correct: 3 },
+    { question: "‘गबन’ उपन्यास के रचयिता कौन हैं?", answers: ["जयशंकर प्रसाद", "सूर्यकांत त्रिपाठी 'निराला'", "प्रेमचंद", "धर्मवीर भारती"], correct: 2 },
+    { question: "‘छाया मत छूना मन’ कविता के कवि कौन हैं?", answers: ["हरिवंश राय बच्चन", "धर्मवीर भारती", "जयशंकर प्रसाद", "महादेवी वर्मा"], correct: 3 },
+    { question: "किस शब्द का विलोम 'असत्य' है?", answers: ["मिथ्या", "झूठ", "सपना", "सत्य"], correct: 3 },
+    { question: "किस शब्द का पर्यायवाची 'पृथ्वी' है?", answers: ["धरती", "आकाश", "गगन", "व्योम"], correct: 0 },
+    { question: "‘तपस्विनी’ महाकाव्य के रचयिता कौन हैं?", answers: ["महावीर प्रसाद द्विवेदी", "जयशंकर प्रसाद", "मैथिलीशरण गुप्त", "रामधारी सिंह दिनकर"], correct: 2 },
+    { question: "किस शब्द का विलोम 'स्वतंत्रता' है?", answers: ["बन्धन", "निरंकुशता", "पराधीनता", "मुक्ति"], correct: 2 }
         ]
     },
     12: {
@@ -968,6 +1543,50 @@ button:hover {
             { question: "What is the chemical formula for water?", answers: ["H2O", "CO2", "O2", "H2"], correct: 0 },
             { question: "What is the process by which plants make their food?", answers: ["Photosynthesis", "Respiration", "Digestion", "Transpiration"], correct: 0 },
             { question: "What is the most abundant gas in the Earth's atmosphere?", answers: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"], correct: 0 }
+        ],
+        english: [
+        { question: "Who is the author of 'To Kill a Mockingbird'?", answers: ["Harper Lee", "J.K. Rowling", "George Orwell", "Mark Twain"], correct: 0 },
+    { question: "Which Shakespearean play features the characters Romeo and Juliet?", answers: ["Hamlet", "Macbeth", "Romeo and Juliet", "Othello"], correct: 2 },
+    { question: "Who wrote the poem 'The Waste Land'?", answers: ["Robert Frost", "T.S. Eliot", "Walt Whitman", "Emily Dickinson"], correct: 1 },
+    { question: "What is the genre of '1984' by George Orwell?", answers: ["Science Fiction", "Dystopian Fiction", "Historical Fiction", "Fantasy"], correct: 1 },
+    { question: "Who is the author of 'Pride and Prejudice'?", answers: ["Jane Austen", "Charlotte Brontë", "Emily Brontë", "Agatha Christie"], correct: 0 },
+    { question: "What is the protagonist's name in 'The Great Gatsby'?", answers: ["Nick Carraway", "Jay Gatsby", "Daisy Buchanan", "Tom Buchanan"], correct: 1 },
+    { question: "Who wrote the poem 'The Raven'?", answers: ["Edgar Allan Poe", "Robert Frost", "William Wordsworth", "John Keats"], correct: 0 },
+    { question: "What is the main theme of 'Brave New World' by Aldous Huxley?", answers: ["Love and Romance", "Individuality vs. Conformity", "War and Peace", "Adventure and Exploration"], correct: 1 },
+    { question: "What is the full name of the character in 'The Catcher in the Rye' by J.D. Salinger?", answers: ["Holden Caulfield", "Atticus Finch", "Huckleberry Finn", "Nick Carraway"], correct: 0 },
+    { question: "Who wrote 'War and Peace'?", answers: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Nikolai Gogol"], correct: 1 },
+    { question: "What is the central conflict in 'Lord of the Flies' by William Golding?", answers: ["Man vs. Society", "Man vs. Nature", "Man vs. Himself", "Man vs. Man"], correct: 3 },
+    { question: "Who is the author of 'Frankenstein'?", answers: ["Mary Shelley", "Bram Stoker", "H.G. Wells", "Edgar Allan Poe"], correct: 0 },
+    { question: "What is the setting of 'The Lord of the Rings' trilogy by J.R.R. Tolkien?", answers: ["Middle-earth", "Hogwarts School of Witchcraft and Wizardry", "Narnia", "Neverland"], correct: 0 },
+    { question: "Who wrote 'The Canterbury Tales'?", answers: ["William Shakespeare", "Geoffrey Chaucer", "John Milton", "Thomas Hardy"], correct: 1 },
+    { question: "What is the name of the main character in 'Moby-Dick'?", answers: ["Ishmael", "Captain Ahab", "Starbuck", "Queequeg"], correct: 0 },
+    { question: "Who is the author of 'The Picture of Dorian Gray'?", answers: ["Oscar Wilde", "Charles Dickens", "Emily Brontë", "Jane Austen"], correct: 0 },
+    { question: "What is the genre of 'The Catcher in the Rye'?", answers: ["Dystopian Fiction", "Science Fiction", "Coming-of-Age", "Historical Fiction"], correct: 2 },
+    { question: "Who wrote the play 'Death of a Salesman'?", answers: ["Arthur Miller", "Tennessee Williams", "Eugene O'Neill", "Samuel Beckett"], correct: 0 },
+    { question: "What is the name of the island in 'Treasure Island'?", answers: ["Skull Island", "Treasure Island", "Shipwreck Island", "Desert Island"], correct: 1 },
+    { question: "Who is the protagonist in 'The Adventures of Huckleberry Finn'?", answers: ["Huck Finn", "Tom Sawyer", "Jim"], correct: 0 }
+        ],
+        hindi: [
+             { question: "महाभारत के रचयिता कौन हैं?", answers: ["वेदव्यास", "वाल्मीकि", "कबीर", "तुलसीदास"], correct: 0 },
+    { question: "भारत का राष्ट्रगीत कौन सा है?", answers: ["वन्दे मातरम्", "जन गण मन", "सारे जहाँ से अच्छा", "मेरा रंग दे बसंती चोला"], correct: 0 },
+    { question: "तुलसीदास ने रामचरितमानस की रचना किस भाषा में की थी?", answers: ["संस्कृत", "अवधी", "ब्रज", "हिंदी"], correct: 1 },
+    { question: "हिंदी के प्रसिद्ध लेखक प्रेमचंद का मूल नाम क्या था?", answers: ["धनपत राय", "हरीश राय", "रामचरण राय", "मोहनदास राय"], correct: 0 },
+    { question: "भारत के किस राज्य में हिंदी सबसे अधिक बोली जाती है?", answers: ["महाराष्ट्र", "उत्तर प्रदेश", "गुजरात", "तमिलनाडु"], correct: 1 },
+    { question: "मुंशी प्रेमचंद की पहली प्रकाशित पुस्तक कौन सी थी?", answers: ["गोदान", "गबन", "सेवासदन", "प्रेमाश्रम"], correct: 2 },
+    { question: "कौन सी रचना जयशंकर प्रसाद की है?", answers: ["कामायनी", "राम की शक्ति पूजा", "अंधायुग", "साकेत"], correct: 0 },
+    { question: "किस काव्य शैली में 'रामचरितमानस' रचित है?", answers: ["महाकाव्य", "खंडकाव्य", "प्रबंधकाव्य", "मुक्तक"], correct: 0 },
+    { question: "सूरदास किस भाषा के कवि थे?", answers: ["ब्रज", "अवधी", "मैथिली", "हिंदी"], correct: 0 },
+    { question: "भारत में पहली हिंदी पुस्तक किस वर्ष प्रकाशित हुई?", answers: ["1805", "1826", "1850", "1885"], correct: 1 },
+    { question: "किस कवि को 'कविवर' की उपाधि दी गई है?", answers: ["सूरदास", "कबीर", "महादेवी वर्मा", "जयशंकर प्रसाद"], correct: 3 },
+    { question: "किस काव्य में भगवान कृष्ण का बाल्यकाल वर्णित है?", answers: ["सूरसागर", "रामचरितमानस", "साकेत", "गीता"], correct: 0 },
+    { question: "हिंदी साहित्य का कौन सा युग 'रीति काल' के नाम से जाना जाता है?", answers: ["आधुनिक युग", "भक्तिकाल", "पूर्वमध्यकाल", "अधुनातन युग"], correct: 2 },
+    { question: "किस कवि को 'भक्तिकाल का सूरज' कहा जाता है?", answers: ["कबीर", "तुलसीदास", "सूरदास", "मीराबाई"], correct: 2 },
+    { question: "'गोदान' उपन्यास का लेखक कौन है?", answers: ["प्रेमचंद", "जैनेन्द्र", "अज्ञेय", "निराला"], correct: 0 },
+    { question: "किस रचना में भारतीय स्वतंत्रता संग्राम का वर्णन है?", answers: ["चित्रलेखा", "गोदान", "कर्मभूमि", "अंधायुग"], correct: 2 },
+    { question: "किस कविता में नारी की महानता का वर्णन किया गया है?", answers: ["अंजलि", "मधुशाला", "सरोज-स्मृति", "मधुबाला"], correct: 2 },
+    { question: "किस लेखक ने हिंदी में पहली बार कहानियों को लोकप्रिय बनाया?", answers: ["प्रेमचंद", "रवीन्द्रनाथ टैगोर", "भारतेंदु हरिश्चंद्र", "सुदर्शन"], correct: 0 },
+    { question: "कौन सा वाक्य समुच्चय बोधक वाक्य है?", answers: ["जब वह आया", "यदि तुम पढ़ोगे", "वह आया और चला गया", "क्योंकि वह पढ़ता है"], correct: 2 },
+    { question: "कौन सा शब्द 'जल' का पर्यायवाची है?", answers: ["नीर", "वायु", "अग्नि", "धरती"], correct: 0 }
         ]
     }
     // Add more classes and subjects as needed
@@ -1058,7 +1677,6 @@ function nextQuestion() {
 document.getElementById('reloadButton').addEventListener('click', () => {
     location.reload();
 });
-
 
 
     </script>

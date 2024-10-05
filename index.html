@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Website</title>
     <style>
-        .container {
-    min-width: 600px;
+       .container {
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ff99;
-    border-radius: 10px;
+    border-radius: 1vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 50%;
@@ -20,13 +21,11 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1vh;
     color: #333;
 }
 
-#selection,
-#quiz,
-#result {
+#selection, #quiz, #result {
     margin-bottom: 20px;
 }
 
@@ -61,8 +60,7 @@ button:hover {
     background-color: #005454;
 }
 
-#quiz,
-#result {
+#quiz, #result {
     text-align: center;
 }
 
@@ -73,6 +71,46 @@ button:hover {
 #score {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    button {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+
+    select {
+        font-size: 0.9em;
+    }
+
+    #score {
+        font-size: 16px;
+    }
 }
 
     </style>
